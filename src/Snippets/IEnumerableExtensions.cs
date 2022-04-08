@@ -1,8 +1,13 @@
 ﻿namespace Snippets;
 public static class IEnumerableExtensions
 {
-        public static bool None<TSource>(this IEnumerable<TSource> source)
+    public static bool None<TSource>(this IEnumerable<TSource>? source)
+    {
+        if (source is null)
         {
-            return !source.Any();
+            return true;
         }
+
+        return !source.Any();
+    }
 }

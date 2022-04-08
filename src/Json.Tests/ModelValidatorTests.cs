@@ -1,21 +1,22 @@
-﻿using Json.Models;
+using Json.Models;
 using NUnit.Framework;
 
-namespace Json.Tests;
-
-public class ModelValidatorTests
+namespace Json.Tests2
 {
-    [Test]
-    public void WhenModelIsNull_ItShouldThrow()
+    public class ModelValidatorTests
     {
-        // Arrange
-        Monster monster = null!;
+        [Test]
+        public void WhenModelIsNull_ItShouldThrow()
+        {
+            // Arrange
+            Monster monster = null!;
 
-        // Act
-        var validationResult = ModelValidator.Validate(monster);
+            // Act
+            var validationResult = ModelValidator.Validate(monster);
 
-        // Assert
-        Assert.False(validationResult.IsValid);
-        //Assert.Equal(validationResult.ValidationResults.Single().ErrorMessage, "Validator received null object");
+            // Assert
+            Assert.False(validationResult.IsValid);
+            //Assert.Equal(validationResult.ValidationResults.Single().ErrorMessage, "Validator received null object");
+        }
     }
 }
