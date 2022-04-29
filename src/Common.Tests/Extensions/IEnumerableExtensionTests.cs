@@ -1,7 +1,8 @@
+using Common.Extensions;
 using NUnit.Framework;
 using System.Collections.Generic;
 
-namespace Snippets.Tests;
+namespace Common.Tests.Extensions;
 [TestFixture]
 public class IEnumerableExtensionsTests
 {
