@@ -1,7 +1,7 @@
-﻿using Json.Attributes;
+﻿using Validation.Attributes;
 using System.ComponentModel.DataAnnotations;
 
-namespace Json.Models;
+namespace Validation.Models;
 
 [Attributes.Monster]
 public class Monster

@@ -1,7 +1,7 @@
-﻿using Json.Models;
+﻿using Validation.Models;
 using System.ComponentModel.DataAnnotations;
 
-namespace Json;
+namespace Validation;
 
 public static class ModelValidator
 {

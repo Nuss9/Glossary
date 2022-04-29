@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Json.Attributes;
+namespace Validation.Attributes;
 
 public class MonsterCode : RegularExpressionAttribute
 {

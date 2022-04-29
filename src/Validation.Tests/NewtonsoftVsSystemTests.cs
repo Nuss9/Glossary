@@ -1,10 +1,10 @@
-﻿using Json.Models;
+﻿using Validation.Models;
 using NUnit.Framework;
 using System;
 using Micro = System.Text.Json;
 using Newton = Newtonsoft.Json;
 
-namespace Json.Tests;
+namespace Validation.Tests;
 
 public class NewtonsoftVsSystemTests
 {

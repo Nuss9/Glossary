@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Json.Models;
+namespace Validation.Models;
 
 public class ValidationResultModel
 {

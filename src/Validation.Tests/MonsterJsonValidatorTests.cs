@@ -1,11 +1,11 @@
-﻿using Json.Models;
+﻿using Validation.Models;
 using Newtonsoft.Json.Linq;
 using Newtonsoft.Json.Schema;
 using Newtonsoft.Json.Schema.Generation;
 using NUnit.Framework;
 using System.Collections.Generic;
 
-namespace Json.Tests;
+namespace Validation.Tests;
 
 public class MonsterJsonValidatorTests
 {

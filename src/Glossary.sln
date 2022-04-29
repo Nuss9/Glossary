@@ -5,15 +5,15 @@ VisualStudioVersion = 17.2.32317.152
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Snippets", "Snippets\Snippets.csproj", "{C62E892A-FE2D-483B-A2C2-C53A44BF67BF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Json", "Json\Json.csproj", "{819DB0D6-48BA-480F-9E7C-16E7B6825587}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Validation", "Json\Validation.csproj", "{819DB0D6-48BA-480F-9E7C-16E7B6825587}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Json.Tests", "Json.Tests\Json.Tests.csproj", "{359E9DCC-06E8-4AE6-AFDA-2BAD3AD302C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Validation.Tests", "Json.Tests\Validation.Tests.csproj", "{359E9DCC-06E8-4AE6-AFDA-2BAD3AD302C2}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Snippets.Tests", "Snippets.Tests\Snippets.Tests.csproj", "{1B7A9A6C-6A85-4062-94FE-57AD22D34A9F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns", "Patterns\Patterns.csproj", "{F228C5FF-75E9-469B-A7C2-2DD7AB36A6E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{6666D733-E569-47A7-878E-C5692B35E1F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "Common\Common.csproj", "{6666D733-E569-47A7-878E-C5692B35E1F9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

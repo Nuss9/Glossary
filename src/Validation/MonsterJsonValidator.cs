@@ -2,7 +2,7 @@
 using Newtonsoft.Json.Schema;
 using System.ComponentModel.DataAnnotations;
 
-namespace Json;
+namespace Validation;
 
 public class MonsterJsonValidator
 {
