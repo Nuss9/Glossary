@@ -21,7 +21,7 @@ More detailed examples can be found in [NewtonsoftVsSystemTests.cs](../Validatio
 
 **Q:** *I'm starting a new project, should I go with Newtonsoft, or System.Text?*
 
-**A:** System.Text.Json is promoted as the new default library when it comes to JSON. Microsoft is actively maintaining and improving System.Text.Json and therefore its missing features and differences compared to Newtonsoft are less and less bothering. Developer proficiency of Newtonsoft is also important. If you're comfortable with API's of the older library then it's absolutely fine to stick with it.
+**A:** System.Text.Json is promoted as the new default library when it comes to JSON. Microsoft is actively maintaining and improving System.Text.Json and therefore its missing features and differences compared to Newtonsoft are less and less bothering. Developer proficiency of Newtonsoft is also important. If you're comfortable with API's of the older library then it's absolutely fine to stick with it. And lastly, sometimes the libraries that we use have a hard dependency on either one of these. For example, [build SDK for Azure functions](https://www.nuget.org/packages/Microsoft.NET.Sdk.Functions) has a hard dependency on Newtonsoft.Json at the time of writing, which should be taken into consideration.
 
 ## Takeaways:
 - Do not mix different serializers in your solution. Choose either one of the libraries and go with it, otherwise you'll be in for major problems and confusion.

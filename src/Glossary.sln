@@ -13,6 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Validation", "Validation\Va
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Validation.Tests", "Validation.Tests\Validation.Tests.csproj", "{0682A431-8D6A-41F1-85BA-0755225273AC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReadMe", "ReadMe", "{61B6B29E-2807-4734-8821-5E5511633ABD}"
+	ProjectSection(SolutionItems) = preProject
+		JsonLibraryComparison.md = JsonLibraryComparison.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
