@@ -18,6 +18,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReadMe", "ReadMe", "{61B6B2
 		JsonLibraryComparison.md = JsonLibraryComparison.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gateway.Buckaroo", "Gateway.Buckaroo\Gateway.Buckaroo.csproj", "{F48E1740-0845-4A9D-A7EE-08FECF43DB6F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -88,6 +90,18 @@ Global
 		{0682A431-8D6A-41F1-85BA-0755225273AC}.Release|x64.Build.0 = Release|Any CPU
 		{0682A431-8D6A-41F1-85BA-0755225273AC}.Release|x86.ActiveCfg = Release|Any CPU
 		{0682A431-8D6A-41F1-85BA-0755225273AC}.Release|x86.Build.0 = Release|Any CPU
+		{F48E1740-0845-4A9D-A7EE-08FECF43DB6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F48E1740-0845-4A9D-A7EE-08FECF43DB6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F48E1740-0845-4A9D-A7EE-08FECF43DB6F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F48E1740-0845-4A9D-A7EE-08FECF43DB6F}.Debug|x64.Build.0 = Debug|Any CPU
+		{F48E1740-0845-4A9D-A7EE-08FECF43DB6F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F48E1740-0845-4A9D-A7EE-08FECF43DB6F}.Debug|x86.Build.0 = Debug|Any CPU
+		{F48E1740-0845-4A9D-A7EE-08FECF43DB6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F48E1740-0845-4A9D-A7EE-08FECF43DB6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F48E1740-0845-4A9D-A7EE-08FECF43DB6F}.Release|x64.ActiveCfg = Release|Any CPU
+		{F48E1740-0845-4A9D-A7EE-08FECF43DB6F}.Release|x64.Build.0 = Release|Any CPU
+		{F48E1740-0845-4A9D-A7EE-08FECF43DB6F}.Release|x86.ActiveCfg = Release|Any CPU
+		{F48E1740-0845-4A9D-A7EE-08FECF43DB6F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
