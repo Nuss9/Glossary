@@ -8,4 +8,4 @@ Helper | A static object containing methods that help with simple, mundane tasks
 Provider | A class implementing a certain strategy / algorithm.
 Repository | A class wrapping a data source that is owned by the application.
 Resolver | A class tasked to return a specific value or object based on some input data. Since it is an object with its own lifetime, it has access to resources from DI and should be used to abstract away an implementation detail.
-DTO | A data transfer object (DTO) is an object that defines how the data will be sent over the network. 
+DTO | A data transfer object (DTO) is an object that defines how the data will be sent over the network.
